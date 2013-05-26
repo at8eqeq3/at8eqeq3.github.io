@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[bl.AT8EQEQ3.ME]]></title>
-  <link href="http://at8eqeq3.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Renoise | bl.AT8EQEQ3.ME]]></title>
+  <link href="http://at8eqeq3.github.io/blog/categories/renoise/atom.xml" rel="self"/>
   <link href="http://at8eqeq3.github.io/"/>
   <updated>2013-05-26T22:43:05+04:00</updated>
   <id>http://at8eqeq3.github.io/</id>
@@ -18,8 +18,7 @@
     <link href="http://at8eqeq3.github.io/blog/2013/04/20/nochmals/"/>
     <updated>2013-04-20T12:00:00+04:00</updated>
     <id>http://at8eqeq3.github.io/blog/2013/04/20/nochmals</id>
-    <content type="html"><![CDATA[<iframe width="100%" height="166" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F88755765&amp;"></iframe>
-
+    <content type="html"><![CDATA[<p>Error processing input, expected syntax: {% soundcloud type id [options...] %} received: <a href="https://soundcloud.com/katze-von-ulthar/nochmals">https://soundcloud.com/katze-von-ulthar/nochmals</a> </p>
 ]]></content>
   </entry>
   
@@ -28,8 +27,7 @@
     <link href="http://at8eqeq3.github.io/blog/2013/03/13/istra/"/>
     <updated>2013-03-13T12:00:00+04:00</updated>
     <id>http://at8eqeq3.github.io/blog/2013/03/13/istra</id>
-    <content type="html"><![CDATA[<iframe width="100%" height="166" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F81651482&amp;"></iframe>
-
+    <content type="html"><![CDATA[<p>Error processing input, expected syntax: {% soundcloud type id [options...] %} received: <a href="https://soundcloud.com/katze-von-ulthar/istra">https://soundcloud.com/katze-von-ulthar/istra</a> </p>
 ]]></content>
   </entry>
   
