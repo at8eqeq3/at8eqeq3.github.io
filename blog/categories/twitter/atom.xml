@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Twitter | bl.AT8EQEQ3.ME]]></title>
+  <link href="http://at8eqeq3.github.io/blog/categories/twitter/atom.xml" rel="self"/>
+  <link href="http://at8eqeq3.github.io/"/>
+  <updated>2013-05-26T23:46:21+04:00</updated>
+  <id>http://at8eqeq3.github.io/</id>
+  <author>
+    <name><![CDATA[at8eqeq3]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Twitter Cards для YADG]]></title>
+    <link href="http://at8eqeq3.github.io/blog/2013/05/09/twitter-cards-dlia-yadg/"/>
+    <updated>2013-05-09T12:50:00+04:00</updated>
+    <id>http://at8eqeq3.github.io/blog/2013/05/09/twitter-cards-dlia-yadg</id>
+    <content type="html"><![CDATA[<p>Непостижимым образом, Twitter одобрил карточки для приложения. Теперь постеры красиво отображаются в ленте. Стоит, конечно, заметить, что Твиттер, как всегда, идёт своим путём, и дублирует функционал OG своими тегами. С другой стороны, глядя на то, как отображают посты VK и FB (поддерживающие и активно насаждающие OG) &mdash; лучше пусть Twitter Cards.</p>
+]]></content>
+  </entry>
+  
+</feed>

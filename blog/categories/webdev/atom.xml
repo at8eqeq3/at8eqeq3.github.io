@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[bl.AT8EQEQ3.ME]]></title>
-  <link href="http://at8eqeq3.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Webdev | bl.AT8EQEQ3.ME]]></title>
+  <link href="http://at8eqeq3.github.io/blog/categories/webdev/atom.xml" rel="self"/>
   <link href="http://at8eqeq3.github.io/"/>
   <updated>2013-05-26T23:46:21+04:00</updated>
   <id>http://at8eqeq3.github.io/</id>
@@ -23,34 +23,6 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Это тупик. Все усилия были напрасны]]></title>
-    <link href="http://at8eqeq3.github.io/blog/2013/05/09/eto-tupik-vsie-usiliia-byli-naprasny/"/>
-    <updated>2013-05-09T07:21:00+04:00</updated>
-    <id>http://at8eqeq3.github.io/blog/2013/05/09/eto-tupik-vsie-usiliia-byli-naprasny</id>
-    <content type="html"><![CDATA[<p><img src="http://dem.dxfoto.ru/uploads/2/g/2g2z0ncsef81mb0ipz6.jpg"></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[nochmals]]></title>
-    <link href="http://at8eqeq3.github.io/blog/2013/04/20/nochmals/"/>
-    <updated>2013-04-20T12:00:00+04:00</updated>
-    <id>http://at8eqeq3.github.io/blog/2013/04/20/nochmals</id>
-    <content type="html"><![CDATA[<iframe width="100%" height="166" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F88755765&amp;"></iframe>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Привет, упоротый! Чё, не признал?]]></title>
-    <link href="http://at8eqeq3.github.io/blog/2013/04/18/priviet/"/>
-    <updated>2013-04-18T17:33:00+04:00</updated>
-    <id>http://at8eqeq3.github.io/blog/2013/04/18/priviet</id>
-    <content type="html"><![CDATA[<p> <img src="http://dem.dxfoto.ru/uploads/2/f/2fyuomtraqd80mebdoi.jpg"></p>
-]]></content>
-  </entry>
-  
-  <entry>
     <title type="html"><![CDATA[Запуск YADG]]></title>
     <link href="http://at8eqeq3.github.io/blog/2013/04/16/zapusk-yadg/"/>
     <updated>2013-04-16T18:09:00+04:00</updated>
@@ -60,16 +32,6 @@
 <p>Внутри у YADG, по-прежнему, <a href="http://www.sinatrarb.com/">Sinatra</a> + <a href="http://www.imagemagick.org/">ImageMagick</a> + <a href="http://mongodb.org/">MongoDB</a>. Размещено на <a href="http://firstvds.ru/">FirstVDS</a> вместе с кучей другой фигни.</p>
 
 <p>Сайт находится здесь: <a href="http://dem.dxfoto.ru/">dem.dxfoto.ru</a>. Исходники на GitHub, невозбранно <a href="https://github.com/at8eqeq3/dem.dxfoto.ru">github.com/at8eqeq3/dem.dxfoto.ru</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[istra]]></title>
-    <link href="http://at8eqeq3.github.io/blog/2013/03/13/istra/"/>
-    <updated>2013-03-13T12:00:00+04:00</updated>
-    <id>http://at8eqeq3.github.io/blog/2013/03/13/istra</id>
-    <content type="html"><![CDATA[<iframe width="100%" height="166" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F81651482&amp;"></iframe>
-
 ]]></content>
   </entry>
   
