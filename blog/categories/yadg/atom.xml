@@ -4,7 +4,7 @@
   <title><![CDATA[Category: YADG | bl.AT8EQEQ3.ME]]></title>
   <link href="http://at8eqeq3.github.io/blog/categories/yadg/atom.xml" rel="self"/>
   <link href="http://at8eqeq3.github.io/"/>
-  <updated>2013-05-31T22:49:50+04:00</updated>
+  <updated>2013-05-31T22:54:15+04:00</updated>
   <id>http://at8eqeq3.github.io/</id>
   <author>
     <name><![CDATA[at8eqeq3]]></name>
@@ -18,11 +18,7 @@
     <link href="http://at8eqeq3.github.io/blog/2013/05/09/twitter-cards-dlia-yadg/"/>
     <updated>2013-05-09T12:50:00+04:00</updated>
     <id>http://at8eqeq3.github.io/blog/2013/05/09/twitter-cards-dlia-yadg</id>
-    <content type="html"><![CDATA[<p>Непостижимым образом, Twitter одобрил карточки для приложения. Теперь постеры красиво отображаются в ленте. Стоит, конечно, заметить, что Твиттер, как всегда, идёт своим путём, и дублирует функционал OG своими тегами. С другой стороны, глядя на то, как отображают посты VK и FB (поддерживающие и активно насаждающие OG) &mdash; лучше пусть Twitter Cards.</p>
-
-<p><em>[OG]: OpenGraph
-</em>[FB]: Facebook
-*[VK]: ВКонтакте</p>
+    <content type="html"><![CDATA[<p>Непостижимым образом, Twitter одобрил <a href="https://dev.twitter.com/docs/cards">карточки</a> для приложения. Теперь постеры красиво отображаются в ленте. Стоит, конечно, заметить, что Твиттер, как всегда, идёт своим путём, и дублирует функционал <abbr title="OpenGraph">OG</abbr> своими тегами. С другой стороны, глядя на то, как отображают посты <abbr title="ВКонтакте">VK</abbr> и <abbr title="Facebook">FB</abbr> (поддерживающие и активно насаждающие <abbr title="OpenGraph">OG</abbr>) &mdash; лучше пусть Twitter Cards.</p>
 ]]></content>
   </entry>
   
