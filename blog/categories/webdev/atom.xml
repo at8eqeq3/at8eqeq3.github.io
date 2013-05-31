@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Webdev | bl.AT8EQEQ3.ME]]></title>
   <link href="http://at8eqeq3.github.io/blog/categories/webdev/atom.xml" rel="self"/>
   <link href="http://at8eqeq3.github.io/"/>
-  <updated>2013-05-31T21:56:15+04:00</updated>
+  <updated>2013-05-31T22:49:50+04:00</updated>
   <id>http://at8eqeq3.github.io/</id>
   <author>
     <name><![CDATA[at8eqeq3]]></name>
@@ -14,11 +14,30 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Дань традиции]]></title>
+    <link href="http://at8eqeq3.github.io/blog/2013/05/31/dan%27-traditsii/"/>
+    <updated>2013-05-31T22:35:00+04:00</updated>
+    <id>http://at8eqeq3.github.io/blog/2013/05/31/dan'-traditsii</id>
+    <content type="html"><![CDATA[<p>Некоторые граждане (<a href="https://twitter.com/nagimov">@nagimov</a> например) уверяют меня, что первым постом в свежеустановленном Октопрессе должен быть гайд по установке Октопресса. К сожалению, мне трудно объяснять другим абсолютно очевидные для меня вещи, поэтому как-то так:</p>
+
+<p><code>
+$ do some magic
+</code></p>
+
+<p>Всё! Октопресс установлен!</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Twitter Cards для YADG]]></title>
     <link href="http://at8eqeq3.github.io/blog/2013/05/09/twitter-cards-dlia-yadg/"/>
     <updated>2013-05-09T12:50:00+04:00</updated>
     <id>http://at8eqeq3.github.io/blog/2013/05/09/twitter-cards-dlia-yadg</id>
     <content type="html"><![CDATA[<p>Непостижимым образом, Twitter одобрил карточки для приложения. Теперь постеры красиво отображаются в ленте. Стоит, конечно, заметить, что Твиттер, как всегда, идёт своим путём, и дублирует функционал OG своими тегами. С другой стороны, глядя на то, как отображают посты VK и FB (поддерживающие и активно насаждающие OG) &mdash; лучше пусть Twitter Cards.</p>
+
+<p><em>[OG]: OpenGraph
+</em>[FB]: Facebook
+*[VK]: ВКонтакте</p>
 ]]></content>
   </entry>
   
@@ -31,7 +50,7 @@
 
 <p>Внутри у YADG, по-прежнему, <a href="http://www.sinatrarb.com/">Sinatra</a> + <a href="http://www.imagemagick.org/">ImageMagick</a> + <a href="http://mongodb.org/">MongoDB</a>. Размещено на <a href="http://firstvds.ru/">FirstVDS</a> вместе с кучей другой фигни.</p>
 
-<p>Сайт находится здесь: <a href="http://dem.dxfoto.ru/">dem.dxfoto.ru</a>. Исходники на GitHub, невозбранно <a href="https://github.com/at8eqeq3/dem.dxfoto.ru">github.com/at8eqeq3/dem.dxfoto.ru</a>.</p>
+<p>Сайт находится здесь: <a href="http://dem.dxfoto.ru/">dem.dxfoto.ru</a>. Исходники на GitHub, невозбранно: <a href="https://github.com/at8eqeq3/dem.dxfoto.ru">github.com/at8eqeq3/dem.dxfoto.ru</a>.</p>
 ]]></content>
   </entry>
   
