@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Webdev | bl.AT8EQEQ3.ME]]></title>
   <link href="http://at8eqeq3.github.io/blog/categories/webdev/atom.xml" rel="self"/>
   <link href="http://at8eqeq3.github.io/"/>
-  <updated>2013-05-31T22:54:15+04:00</updated>
+  <updated>2013-06-04T23:21:49+04:00</updated>
   <id>http://at8eqeq3.github.io/</id>
   <author>
     <name><![CDATA[at8eqeq3]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[CNAME]]></title>
+    <link href="http://at8eqeq3.github.io/blog/2013/06/04/cname/"/>
+    <updated>2013-06-04T23:20:00+04:00</updated>
+    <id>http://at8eqeq3.github.io/blog/2013/06/04/cname</id>
+    <content type="html"><![CDATA[<p>Бложик теперь пересажен на нормальное доменное имя, и это прекрасно.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Дань традиции]]></title>

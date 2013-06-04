@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: This | bl.AT8EQEQ3.ME]]></title>
+  <link href="http://at8eqeq3.github.io/blog/categories/this/atom.xml" rel="self"/>
+  <link href="http://at8eqeq3.github.io/"/>
+  <updated>2013-06-04T23:21:49+04:00</updated>
+  <id>http://at8eqeq3.github.io/</id>
+  <author>
+    <name><![CDATA[at8eqeq3]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[CNAME]]></title>
+    <link href="http://at8eqeq3.github.io/blog/2013/06/04/cname/"/>
+    <updated>2013-06-04T23:20:00+04:00</updated>
+    <id>http://at8eqeq3.github.io/blog/2013/06/04/cname</id>
+    <content type="html"><![CDATA[<p>Бложик теперь пересажен на нормальное доменное имя, и это прекрасно.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Дань традиции]]></title>
+    <link href="http://at8eqeq3.github.io/blog/2013/05/31/dan%27-traditsii/"/>
+    <updated>2013-05-31T22:35:00+04:00</updated>
+    <id>http://at8eqeq3.github.io/blog/2013/05/31/dan'-traditsii</id>
+    <content type="html"><![CDATA[<p>Некоторые граждане (<a href="https://twitter.com/nagimov">@nagimov</a> например) уверяют меня, что первым постом в свежеустановленном Октопрессе должен быть гайд по установке Октопресса. К сожалению, мне трудно объяснять другим абсолютно очевидные для меня вещи, поэтому как-то так:</p>
+
+<p><code>
+$ do some magic
+</code></p>
+
+<p>Всё! Октопресс установлен!</p>
+]]></content>
+  </entry>
+  
+</feed>
