@@ -1,0 +1,9 @@
+---
+layout: post
+title: "CNAME"
+date: 2013-06-04 23:20
+comments: true
+categories: [Webdev, This]
+---
+
+Бложик теперь пересажен на нормальное доменное имя, и это прекрасно.
