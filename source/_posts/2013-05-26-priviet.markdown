@@ -1,0 +1,8 @@
+---
+layout: post
+title: "Привет, упоротый! Чё, не признал?"
+date: 2013-04-18 17:33
+comments: true
+categories: [YADG, Демотиваторы, Юмор, УПРЛС]
+---
+ {% img http://dem.dxfoto.ru/uploads/2/f/2fyuomtraqd80mebdoi.jpg %}
