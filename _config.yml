@@ -2,12 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://at8eqeq3.github.io
-title: bl.AT8EQEQ3.ME
-subtitle: Скажи миру "Ы"
+url: http://at8eqeq3.me
+title: AT8EQEQ3.ME
+subtitle: Уйутнэ Бложыг
 author: at8eqeq3
 simple_search: http://google.com/search
-description:
+description: Pics, music, code, despair.
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -90,7 +90,7 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: at8eqeq3-me
 disqus_show_comment_count: false
 
 # Google Analytics
