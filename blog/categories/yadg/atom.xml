@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: YADG | bl.AT8EQEQ3.ME]]></title>
-  <link href="http://at8eqeq3.github.io/blog/categories/yadg/atom.xml" rel="self"/>
-  <link href="http://at8eqeq3.github.io/"/>
-  <updated>2013-06-04T23:21:49+04:00</updated>
-  <id>http://at8eqeq3.github.io/</id>
+  <title><![CDATA[Category: YADG | AT8EQEQ3.ME]]></title>
+  <link href="http://at8eqeq3.me/blog/categories/yadg/atom.xml" rel="self"/>
+  <link href="http://at8eqeq3.me/"/>
+  <updated>2013-06-09T15:13:45+04:00</updated>
+  <id>http://at8eqeq3.me/</id>
   <author>
     <name><![CDATA[at8eqeq3]]></name>
     
@@ -15,36 +15,36 @@
   
   <entry>
     <title type="html"><![CDATA[Twitter Cards для YADG]]></title>
-    <link href="http://at8eqeq3.github.io/blog/2013/05/09/twitter-cards-dlia-yadg/"/>
+    <link href="http://at8eqeq3.me/blog/2013/05/09/twitter-cards-dlia-yadg/"/>
     <updated>2013-05-09T12:50:00+04:00</updated>
-    <id>http://at8eqeq3.github.io/blog/2013/05/09/twitter-cards-dlia-yadg</id>
+    <id>http://at8eqeq3.me/blog/2013/05/09/twitter-cards-dlia-yadg</id>
     <content type="html"><![CDATA[<p>Непостижимым образом, Twitter одобрил <a href="https://dev.twitter.com/docs/cards">карточки</a> для приложения. Теперь постеры красиво отображаются в ленте. Стоит, конечно, заметить, что Твиттер, как всегда, идёт своим путём, и дублирует функционал <abbr title="OpenGraph">OG</abbr> своими тегами. С другой стороны, глядя на то, как отображают посты <abbr title="ВКонтакте">VK</abbr> и <abbr title="Facebook">FB</abbr> (поддерживающие и активно насаждающие <abbr title="OpenGraph">OG</abbr>) &mdash; лучше пусть Twitter Cards.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Это тупик. Все усилия были напрасны]]></title>
-    <link href="http://at8eqeq3.github.io/blog/2013/05/09/eto-tupik-vsie-usiliia-byli-naprasny/"/>
+    <link href="http://at8eqeq3.me/blog/2013/05/09/eto-tupik-vsie-usiliia-byli-naprasny/"/>
     <updated>2013-05-09T07:21:00+04:00</updated>
-    <id>http://at8eqeq3.github.io/blog/2013/05/09/eto-tupik-vsie-usiliia-byli-naprasny</id>
+    <id>http://at8eqeq3.me/blog/2013/05/09/eto-tupik-vsie-usiliia-byli-naprasny</id>
     <content type="html"><![CDATA[<p><img class="<a" src="href="http://dem.dxfoto.ru/uploads/2/g/2g2z0ncsef81mb0ipz6.jpg">http://dem.dxfoto.ru/uploads/2/g/2g2z0ncsef81mb0ipz6.jpg</a>"></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Привет, упоротый! Чё, не признал?]]></title>
-    <link href="http://at8eqeq3.github.io/blog/2013/04/18/priviet/"/>
+    <link href="http://at8eqeq3.me/blog/2013/04/18/priviet/"/>
     <updated>2013-04-18T17:33:00+04:00</updated>
-    <id>http://at8eqeq3.github.io/blog/2013/04/18/priviet</id>
+    <id>http://at8eqeq3.me/blog/2013/04/18/priviet</id>
     <content type="html"><![CDATA[<p> <img class="<a" src="href="http://dem.dxfoto.ru/uploads/2/f/2fyuomtraqd80mebdoi.jpg">http://dem.dxfoto.ru/uploads/2/f/2fyuomtraqd80mebdoi.jpg</a>"></p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Запуск YADG]]></title>
-    <link href="http://at8eqeq3.github.io/blog/2013/04/16/zapusk-yadg/"/>
+    <link href="http://at8eqeq3.me/blog/2013/04/16/zapusk-yadg/"/>
     <updated>2013-04-16T18:09:00+04:00</updated>
-    <id>http://at8eqeq3.github.io/blog/2013/04/16/zapusk-yadg</id>
+    <id>http://at8eqeq3.me/blog/2013/04/16/zapusk-yadg</id>
     <content type="html"><![CDATA[<p>Предыдущая инкарнация Yet Another Demotivational posters Generator, обитавшая на <a href="https://www.heroku.com/">Heroku</a>, пала жертвой моего весеннего обострения. Судьба не пощадила даже часть исходников. Тем не менее, кое-что осталось, восстановлено и запущено заново, к радости почтенной публики.</p>
 
 <p>Внутри у YADG, по-прежнему, <a href="http://www.sinatrarb.com/">Sinatra</a> + <a href="http://www.imagemagick.org/">ImageMagick</a> + <a href="http://mongodb.org/">MongoDB</a>. Размещено на <a href="http://firstvds.ru/">FirstVDS</a> вместе с кучей другой фигни.</p>

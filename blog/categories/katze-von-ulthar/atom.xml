@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Katze von Ulthar | bl.AT8EQEQ3.ME]]></title>
-  <link href="http://at8eqeq3.github.io/blog/categories/katze-von-ulthar/atom.xml" rel="self"/>
-  <link href="http://at8eqeq3.github.io/"/>
-  <updated>2013-06-04T23:21:49+04:00</updated>
-  <id>http://at8eqeq3.github.io/</id>
+  <title><![CDATA[Category: Katze von Ulthar | AT8EQEQ3.ME]]></title>
+  <link href="http://at8eqeq3.me/blog/categories/katze-von-ulthar/atom.xml" rel="self"/>
+  <link href="http://at8eqeq3.me/"/>
+  <updated>2013-06-09T15:13:45+04:00</updated>
+  <id>http://at8eqeq3.me/</id>
   <author>
     <name><![CDATA[at8eqeq3]]></name>
     
@@ -15,18 +15,18 @@
   
   <entry>
     <title type="html"><![CDATA[nochmals]]></title>
-    <link href="http://at8eqeq3.github.io/blog/2013/04/20/nochmals/"/>
+    <link href="http://at8eqeq3.me/blog/2013/04/20/nochmals/"/>
     <updated>2013-04-20T12:00:00+04:00</updated>
-    <id>http://at8eqeq3.github.io/blog/2013/04/20/nochmals</id>
+    <id>http://at8eqeq3.me/blog/2013/04/20/nochmals</id>
     <content type="html"><![CDATA[<p>Error processing input, expected syntax: {% soundcloud type id [options...] %} received: <a href="https://soundcloud.com/katze-von-ulthar/nochmals">https://soundcloud.com/katze-von-ulthar/nochmals</a> </p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[istra]]></title>
-    <link href="http://at8eqeq3.github.io/blog/2013/03/13/istra/"/>
+    <link href="http://at8eqeq3.me/blog/2013/03/13/istra/"/>
     <updated>2013-03-13T12:00:00+04:00</updated>
-    <id>http://at8eqeq3.github.io/blog/2013/03/13/istra</id>
+    <id>http://at8eqeq3.me/blog/2013/03/13/istra</id>
     <content type="html"><![CDATA[<p>Error processing input, expected syntax: {% soundcloud type id [options...] %} received: <a href="https://soundcloud.com/katze-von-ulthar/istra">https://soundcloud.com/katze-von-ulthar/istra</a> </p>
 ]]></content>
   </entry>
