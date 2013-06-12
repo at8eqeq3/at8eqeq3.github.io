@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Music | AT8EQEQ3.ME]]></title>
-  <link href="http://at8eqeq3.me/blog/categories/music/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Remixes | AT8EQEQ3.ME]]></title>
+  <link href="http://at8eqeq3.me/blog/categories/remixes/atom.xml" rel="self"/>
   <link href="http://at8eqeq3.me/"/>
   <updated>2013-06-12T17:29:50+04:00</updated>
   <id>http://at8eqeq3.me/</id>
@@ -23,24 +23,6 @@
 <p>Моя работа для конкурса ремиксов на песенку &ldquo;Change the World&rdquo; за авторством Controlled Collapse. Пока что &mdash; work in progress, комменты приветствуются.</p>
 
 <p>Запрограммировано в Renoise, сведено в Ardour, звуки из ренойзовой штатной библиотеки и из микрокоржа (кому это вообще интересно?).</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[nochmals]]></title>
-    <link href="http://at8eqeq3.me/blog/2013/04/20/nochmals/"/>
-    <updated>2013-04-20T12:00:00+04:00</updated>
-    <id>http://at8eqeq3.me/blog/2013/04/20/nochmals</id>
-    <content type="html"><![CDATA[<p>Error processing input, expected syntax: {% soundcloud type id [options...] %} received: <a href="https://soundcloud.com/katze-von-ulthar/nochmals">https://soundcloud.com/katze-von-ulthar/nochmals</a> </p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[istra]]></title>
-    <link href="http://at8eqeq3.me/blog/2013/03/13/istra/"/>
-    <updated>2013-03-13T12:00:00+04:00</updated>
-    <id>http://at8eqeq3.me/blog/2013/03/13/istra</id>
-    <content type="html"><![CDATA[<p>Error processing input, expected syntax: {% soundcloud type id [options...] %} received: <a href="https://soundcloud.com/katze-von-ulthar/istra">https://soundcloud.com/katze-von-ulthar/istra</a> </p>
 ]]></content>
   </entry>
   
