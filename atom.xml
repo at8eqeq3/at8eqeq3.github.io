@@ -4,7 +4,7 @@
   <title><![CDATA[AT8EQEQ3.ME]]></title>
   <link href="http://at8eqeq3.me/atom.xml" rel="self"/>
   <link href="http://at8eqeq3.me/"/>
-  <updated>2013-06-12T17:32:03+04:00</updated>
+  <updated>2013-07-13T22:17:26+04:00</updated>
   <id>http://at8eqeq3.me/</id>
   <author>
     <name><![CDATA[at8eqeq3]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Новые фоточки и проверка OEmbed]]></title>
+    <link href="http://at8eqeq3.me/blog/2013/07/13/novyie-fotochki-i-provierka-oembed/"/>
+    <updated>2013-07-13T21:50:00+04:00</updated>
+    <id>http://at8eqeq3.me/blog/2013/07/13/novyie-fotochki-i-provierka-oembed</id>
+    <content type="html"><![CDATA[<p>Для начала &ndash; немного свежих фоточек из <a href="http://www.flickr.com/photos/at8eqeq3/">моего Фликера</a>:</p>
+
+<p><img src='http://farm8.staticflickr.com/7283/9278457508_5966b9057c_b.jpg' alt='P7137857' /></p>
+
+<p><img src='http://farm8.staticflickr.com/7383/9278456424_e163ebd952_b.jpg' alt='P7137841' /></p>
+
+<p><img src='http://farm6.staticflickr.com/5474/9278451342_709e61ba44_b.jpg' alt='P7138018' /></p>
+
+<p>А вообще &mdash; лучше сразу валить туда и смотреть, чё.</p>
+
+<p>Ну, и до кучи скажу, что отображение фоточек (а также кучи разной другой лабуды) возможно благодаря технологии <a href="http://oembed.com/">OEmbed</a> и няшному плагину для Октопресса (на самом деле &ndash; для Jekyll, но суть от этого не меняется) &mdash; <a href="https://github.com/shogo82148/oembed_tag">shogo82148/oembed_tag</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Change the World]]></title>

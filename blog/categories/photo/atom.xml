@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: This | AT8EQEQ3.ME]]></title>
-  <link href="http://at8eqeq3.me/blog/categories/this/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Photo | AT8EQEQ3.ME]]></title>
+  <link href="http://at8eqeq3.me/blog/categories/photo/atom.xml" rel="self"/>
   <link href="http://at8eqeq3.me/"/>
   <updated>2013-07-13T22:17:26+04:00</updated>
   <id>http://at8eqeq3.me/</id>
@@ -29,30 +29,6 @@
 <p>А вообще &mdash; лучше сразу валить туда и смотреть, чё.</p>
 
 <p>Ну, и до кучи скажу, что отображение фоточек (а также кучи разной другой лабуды) возможно благодаря технологии <a href="http://oembed.com/">OEmbed</a> и няшному плагину для Октопресса (на самом деле &ndash; для Jekyll, но суть от этого не меняется) &mdash; <a href="https://github.com/shogo82148/oembed_tag">shogo82148/oembed_tag</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[CNAME]]></title>
-    <link href="http://at8eqeq3.me/blog/2013/06/04/cname/"/>
-    <updated>2013-06-04T23:20:00+04:00</updated>
-    <id>http://at8eqeq3.me/blog/2013/06/04/cname</id>
-    <content type="html"><![CDATA[<p>Бложик теперь пересажен на нормальное доменное имя, и это прекрасно.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Дань традиции]]></title>
-    <link href="http://at8eqeq3.me/blog/2013/05/31/dan%27-traditsii/"/>
-    <updated>2013-05-31T22:35:00+04:00</updated>
-    <id>http://at8eqeq3.me/blog/2013/05/31/dan'-traditsii</id>
-    <content type="html"><![CDATA[<p>Некоторые граждане (<a href="https://twitter.com/nagimov">@nagimov</a> например) уверяют меня, что первым постом в свежеустановленном Октопрессе должен быть гайд по установке Октопресса. К сожалению, мне трудно объяснять другим абсолютно очевидные для меня вещи, поэтому как-то так:</p>
-
-<p><code>
-$ do some magic
-</code></p>
-
-<p>Всё! Октопресс установлен!</p>
 ]]></content>
   </entry>
   
