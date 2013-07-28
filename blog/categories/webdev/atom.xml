@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Webdev | AT8EQEQ3.ME]]></title>
   <link href="http://at8eqeq3.me/blog/categories/webdev/atom.xml" rel="self"/>
   <link href="http://at8eqeq3.me/"/>
-  <updated>2013-07-13T22:17:26+04:00</updated>
+  <updated>2013-07-28T22:33:41+04:00</updated>
   <id>http://at8eqeq3.me/</id>
   <author>
     <name><![CDATA[at8eqeq3]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Instagram color indexer]]></title>
+    <link href="http://at8eqeq3.me/blog/2013/07/28/instagram-color-indexer/"/>
+    <updated>2013-07-28T22:25:00+04:00</updated>
+    <id>http://at8eqeq3.me/blog/2013/07/28/instagram-color-indexer</id>
+    <content type="html"><![CDATA[<p><a href="http://instagram.com/p/cUbB4KOWrB/">http://instagram.com/p/cUbB4KOWrB/</a>">http://instagram.com/p/cUbB4KOWrB/">http://instagram.com/p/cUbB4KOWrB/</a></a></p>
+
+<p>Непостижимым образом нагородил приложульку, индексирующую инстаграммы на предмет цветов (colors, а не flowers, если что). Фоточки приезжают через <a href="http://instagram.com/developer/realtime/">Realtime API</a>, после чего дербанятся на цвета квантизацией из RMagick и складываются в СУБД. Смеха ради, СУБД у меня PostGIS. Не, ну а чё. 3 компонента цвета &ndash; 3 координаты, ищем ближайшую к заданной, и показываем картинку с нужным цветом.</p>
+
+<p>Не исключено, что это всё неправильно. Наверняка это совершенно бесполезно. Но я это запилил, и чрезвычайно собою доволен.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[CNAME]]></title>
