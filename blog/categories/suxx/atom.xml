@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Twitter | AT8EQEQ3.ME]]></title>
-  <link href="http://at8eqeq3.me/blog/categories/twitter/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Suxx | AT8EQEQ3.ME]]></title>
+  <link href="http://at8eqeq3.me/blog/categories/suxx/atom.xml" rel="self"/>
   <link href="http://at8eqeq3.me/"/>
   <updated>2013-08-18T13:35:29+04:00</updated>
   <id>http://at8eqeq3.me/</id>
@@ -27,15 +27,6 @@
 <p>Знаете, уважаемая компания Twitter, на днях я проворачивал примерно ту же операцию на Instagram. Там у меня соцграф поменьше, чем у вас, но тоже кое-что. Но они не накладывают таких упоротых ограничений (не знаю, почему; возможно, им Facebook денег даёт), и всю нужную мне информацию я получил за несколько минут, упираясь разве что в производительность сети. Я попытался использовать аналогичный скрипт (помимо сбора данных там ещё надо формировать файл определённого формата), но он, похоже, не закончит свою работу никогда: споткнулся на первом фолловере и никуда не идёт. После каждой пачки запросов ему приходится замирать на 15 минут. Можете взглянуть на мой профиль (там всего ничего народу) и посчитать, сколько мне нужно времени для решения моей задачи.</p>
 
 <p>Насчёт огурцов, кстати, подумайте &ndash; это я ведь от всей души. И напоследок вопрос: сколько времени нужно на то, чтобы получить список фолловеров, скажем, Джастина Бибера?</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Twitter Cards для YADG]]></title>
-    <link href="http://at8eqeq3.me/blog/2013/05/09/twitter-cards-dlia-yadg/"/>
-    <updated>2013-05-09T12:50:00+04:00</updated>
-    <id>http://at8eqeq3.me/blog/2013/05/09/twitter-cards-dlia-yadg</id>
-    <content type="html"><![CDATA[<p>Непостижимым образом, Twitter одобрил <a href="https://dev.twitter.com/docs/cards">карточки</a> для приложения. Теперь постеры красиво отображаются в ленте. Стоит, конечно, заметить, что Твиттер, как всегда, идёт своим путём, и дублирует функционал <abbr title="OpenGraph">OG</abbr> своими тегами. С другой стороны, глядя на то, как отображают посты <abbr title="ВКонтакте">VK</abbr> и <abbr title="Facebook">FB</abbr> (поддерживающие и активно насаждающие <abbr title="OpenGraph">OG</abbr>) &mdash; лучше пусть Twitter Cards.</p>
 ]]></content>
   </entry>
   

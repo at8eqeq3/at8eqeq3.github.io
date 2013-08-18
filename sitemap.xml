@@ -2,7 +2,7 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://at8eqeq3.me/blog/2013/03/13/istra/</loc>
-        <lastmod>2013-05-26T22:41:39+04:00</lastmod>
+        <lastmod>2013-08-18T10:39:31+04:00</lastmod>
     </url>
     <url>
         <loc>http://at8eqeq3.me/blog/2013/04/16/zapusk-yadg/</loc>
@@ -51,15 +51,19 @@
         <lastmod>2013-07-28T22:33:29+04:00</lastmod>
     </url>
     <url>
+        <loc>http://at8eqeq3.me/blog/2013/08/18/pro-twitter-i-rate-limit/</loc>
+        <lastmod>2013-08-18T13:32:09+04:00</lastmod>
+    </url>
+    <url>
         <loc>http://at8eqeq3.me/robots.txt</loc>
         <lastmod>2013-05-26T22:03:16+04:00</lastmod>
     </url>
     <url>
         <loc>http://at8eqeq3.me/</loc>
-        <lastmod>2013-07-28T22:33:29+04:00</lastmod>
+        <lastmod>2013-08-18T13:32:09+04:00</lastmod>
     </url>
     <url>
         <loc>http://at8eqeq3.me/blog/archives/</loc>
-        <lastmod>2013-07-28T22:33:29+04:00</lastmod>
+        <lastmod>2013-08-18T13:32:09+04:00</lastmod>
     </url>
 </urlset>
