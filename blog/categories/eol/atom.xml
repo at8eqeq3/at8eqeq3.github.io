@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Katze von Ulthar | AT8EQEQ3.ME]]></title>
-  <link href="http://at8eqeq3.me/blog/categories/katze-von-ulthar/atom.xml" rel="self"/>
+  <title><![CDATA[Category: EOL | AT8EQEQ3.ME]]></title>
+  <link href="http://at8eqeq3.me/blog/categories/eol/atom.xml" rel="self"/>
   <link href="http://at8eqeq3.me/"/>
   <updated>2014-03-15T11:05:53+04:00</updated>
   <id>http://at8eqeq3.me/</id>
@@ -14,6 +14,15 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Навожу порядок]]></title>
+    <link href="http://at8eqeq3.me/blog/2014/03/15/navozhu-poriadok/"/>
+    <updated>2014-03-15T10:20:00+04:00</updated>
+    <id>http://at8eqeq3.me/blog/2014/03/15/navozhu-poriadok</id>
+    <content type="html"><![CDATA[<p>В один прекрасный день я решил убрать из интернетов все свои говносайтики. Полагаю, никто об этом не будет сожалеть. Бложик, однако же, оставлю &ndash; пусть будет. Надо его, пожалуй, даже в порядок привести.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Nicht mehr]]></title>
     <link href="http://at8eqeq3.me/blog/2014/03/15/nicht-mehr/"/>
     <updated>2014-03-15T10:09:00+04:00</updated>
@@ -23,37 +32,6 @@
 <p>Дабы не отсвечивало, я удалил свой креатифф отовсюду, куда смог дотянуться (а куда не смог &ndash; ну и ладно, всё равно никому не нужно). Из-за этого слегка поломались некоторые посты в бложике, но я скоро это исправлю.</p>
 
 <p>Тем не менее, музыку я не заброшу, поскольку люблю это дело, но пока я не готов что-то делать для публики. Как-то так.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Change the World]]></title>
-    <link href="http://at8eqeq3.me/blog/2013/06/12/change-the-world/"/>
-    <updated>2013-06-12T17:24:00+04:00</updated>
-    <id>http://at8eqeq3.me/blog/2013/06/12/change-the-world</id>
-    <content type="html"><![CDATA[<p><em>здесь была опубликована моя музыка, но её больше нет</em></p>
-
-<p>Моя работа для конкурса ремиксов на песенку &ldquo;Change the World&rdquo; за авторством Controlled Collapse. Пока что &mdash; work in progress, комменты приветствуются.</p>
-
-<p>Запрограммировано в Renoise, сведено в Ardour, звуки из ренойзовой штатной библиотеки и из микрокоржа (кому это вообще интересно?).</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[nochmals]]></title>
-    <link href="http://at8eqeq3.me/blog/2013/04/20/nochmals/"/>
-    <updated>2013-04-20T12:00:00+04:00</updated>
-    <id>http://at8eqeq3.me/blog/2013/04/20/nochmals</id>
-    <content type="html"><![CDATA[<p><em>здесь была опубликована моя музыка, но её больше нет</em></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[istra]]></title>
-    <link href="http://at8eqeq3.me/blog/2013/03/13/istra/"/>
-    <updated>2013-03-13T12:00:00+04:00</updated>
-    <id>http://at8eqeq3.me/blog/2013/03/13/istra</id>
-    <content type="html"><![CDATA[<p><em>здесь была опубликована моя музыка, но её больше нет</em></p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: OEmbed | AT8EQEQ3.ME]]></title>
   <link href="http://at8eqeq3.me/blog/categories/oembed/atom.xml" rel="self"/>
   <link href="http://at8eqeq3.me/"/>
-  <updated>2013-11-16T20:11:57+04:00</updated>
+  <updated>2014-03-15T11:05:53+04:00</updated>
   <id>http://at8eqeq3.me/</id>
   <author>
     <name><![CDATA[at8eqeq3]]></name>
@@ -20,11 +20,11 @@
     <id>http://at8eqeq3.me/blog/2013/07/13/novyie-fotochki-i-provierka-oembed</id>
     <content type="html"><![CDATA[<p>Для начала &ndash; немного свежих фоточек из <a href="http://www.flickr.com/photos/at8eqeq3/">моего Фликера</a>:</p>
 
-<p><img src='http://farm8.staticflickr.com/7283/9278457508_5966b9057c_b.jpg' alt='P7137857' /></p>
+<p>{% oembed <a href="http://www.flickr.com/photos/at8eqeq3/9278457508/">http://www.flickr.com/photos/at8eqeq3/9278457508/</a> %}</p>
 
-<p><img src='http://farm8.staticflickr.com/7383/9278456424_e163ebd952_b.jpg' alt='P7137841' /></p>
+<p>{% oembed <a href="http://www.flickr.com/photos/at8eqeq3/9278456424/">http://www.flickr.com/photos/at8eqeq3/9278456424/</a> %}</p>
 
-<p><img src='http://farm6.staticflickr.com/5474/9278451342_709e61ba44_b.jpg' alt='P7138018' /></p>
+<p>{% oembed <a href="http://www.flickr.com/photos/at8eqeq3/9278451342/">http://www.flickr.com/photos/at8eqeq3/9278451342/</a> %}</p>
 
 <p>А вообще &mdash; лучше сразу валить туда и смотреть, чё.</p>
 

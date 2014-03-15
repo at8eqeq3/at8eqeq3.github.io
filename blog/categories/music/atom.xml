@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Music | AT8EQEQ3.ME]]></title>
   <link href="http://at8eqeq3.me/blog/categories/music/atom.xml" rel="self"/>
   <link href="http://at8eqeq3.me/"/>
-  <updated>2013-11-16T20:11:57+04:00</updated>
+  <updated>2014-03-15T11:05:53+04:00</updated>
   <id>http://at8eqeq3.me/</id>
   <author>
     <name><![CDATA[at8eqeq3]]></name>
@@ -14,11 +14,24 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Nicht mehr]]></title>
+    <link href="http://at8eqeq3.me/blog/2014/03/15/nicht-mehr/"/>
+    <updated>2014-03-15T10:09:00+04:00</updated>
+    <id>http://at8eqeq3.me/blog/2014/03/15/nicht-mehr</id>
+    <content type="html"><![CDATA[<p>С прискорбием должен сообщить, что мой музыкальный проект под названием Katze von Ulthar накрылся чем-то мохнатым. В связи с возникшими техническими трудностями, я лишился исходников как уже опубликованных материалов, так и тех, что были ещё в работе. Это событие заставило меня более трезво оценить всю проделанную работу, и&hellip; В общем, я осознал, что музычка была говённой. То, что было в начале &ndash; ещё куда ни шло, но последнее &ndash; просто стыдоба.</p>
+
+<p>Дабы не отсвечивало, я удалил свой креатифф отовсюду, куда смог дотянуться (а куда не смог &ndash; ну и ладно, всё равно никому не нужно). Из-за этого слегка поломались некоторые посты в бложике, но я скоро это исправлю.</p>
+
+<p>Тем не менее, музыку я не заброшу, поскольку люблю это дело, но пока я не готов что-то делать для публики. Как-то так.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Change the World]]></title>
     <link href="http://at8eqeq3.me/blog/2013/06/12/change-the-world/"/>
     <updated>2013-06-12T17:24:00+04:00</updated>
     <id>http://at8eqeq3.me/blog/2013/06/12/change-the-world</id>
-    <content type="html"><![CDATA[<p>Error processing input, expected syntax: {% soundcloud type id [options...] %} received: <a href="https://soundcloud.com/katze-von-ulthar/change-the-world">https://soundcloud.com/katze-von-ulthar/change-the-world</a> </p>
+    <content type="html"><![CDATA[<p><em>здесь была опубликована моя музыка, но её больше нет</em></p>
 
 <p>Моя работа для конкурса ремиксов на песенку &ldquo;Change the World&rdquo; за авторством Controlled Collapse. Пока что &mdash; work in progress, комменты приветствуются.</p>
 
@@ -31,7 +44,7 @@
     <link href="http://at8eqeq3.me/blog/2013/04/20/nochmals/"/>
     <updated>2013-04-20T12:00:00+04:00</updated>
     <id>http://at8eqeq3.me/blog/2013/04/20/nochmals</id>
-    <content type="html"><![CDATA[<p>Error processing input, expected syntax: {% soundcloud type id [options...] %} received: <a href="https://soundcloud.com/katze-von-ulthar/nochmals">https://soundcloud.com/katze-von-ulthar/nochmals</a> </p>
+    <content type="html"><![CDATA[<p><em>здесь была опубликована моя музыка, но её больше нет</em></p>
 ]]></content>
   </entry>
   
@@ -40,7 +53,7 @@
     <link href="http://at8eqeq3.me/blog/2013/03/13/istra/"/>
     <updated>2013-03-13T12:00:00+04:00</updated>
     <id>http://at8eqeq3.me/blog/2013/03/13/istra</id>
-    <content type="html"><![CDATA[<p>Error processing input, expected syntax: {% soundcloud type id [options...] %} received: <a href="https://soundcloud.com/katze-von-ulthar/istra">https://soundcloud.com/katze-von-ulthar/istra</a> </p>
+    <content type="html"><![CDATA[<p><em>здесь была опубликована моя музыка, но её больше нет</em></p>
 ]]></content>
   </entry>
   
