@@ -5,12 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Привет, упоротый! Чё, не признал? - AT8EQEQ3.ME</title>
+  <title>FlickrStats - AT8EQEQ3.ME</title>
   <meta name="author" content="at8eqeq3">
 
   
-  <meta name="description" content="Здесь была картинка, но я выключил сайт, где она лежала, а бэкап пролюбил. Пичалька.
-">
+  <meta name="description" content="Я тут на досуге пописываю фиговину для сбора статистики просмотров фоточек на Flickr. Ничего необыкновенного, просто раз в сутки дёргает API и &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://at8eqeq3.me/blog/2013/04/18/priviet">
+  <link rel="canonical" href="http://at8eqeq3.me/blog/2014/03/15/flickrstats">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="AT8EQEQ3.ME" type="application/atom+xml">
@@ -84,7 +83,7 @@
   
   <header>
     
-      <h1 class="entry-title">Привет, упоротый! Чё, не признал?</h1>
+      <h1 class="entry-title">FlickrStats</h1>
     
     
       <p class="meta">
@@ -100,14 +99,24 @@
   
 
 
-<time datetime="2013-04-18T17:33:00+04:00" pubdate data-updated="true">Apr 18<span>th</span>, 2013</time>
+<time datetime="2014-03-15T10:34:00+04:00" pubdate data-updated="true">Mar 15<span>th</span>, 2014</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p><em>Здесь была картинка, но я выключил сайт, где она лежала, а бэкап пролюбил. Пичалька.</em></p>
+<div class="entry-content"><p>Я тут на досуге пописываю фиговину для сбора статистики просмотров фоточек на <a href="http://flickr.com">Flickr</a>. Ничего необыкновенного, просто раз в сутки дёргает API  и складывает результат в базу, а веб-мордочка строит няшные графики.</p>
+
+<p><img src='http://farm4.staticflickr.com/3775/13161702744_ecc2ff4570_b.jpg' alt='flickrstats-screenshot' /></p>
+
+<p>Пока это выглядит вот так. Наружу это нигде не торчит, так что пока только картинкой. Собственно, по поводу этой фигни у меня есть пара вопросов. Во-первых, надо ли это кому вообще кроме меня? Во-вторых, если на первый вопрос ответ был утвердительным, то как оно лучше &ndash; когда у меня хостится один общий сервис или когда каждый у себя держит по инстансу?</p>
+
+<p>Со вторым вариантом, думаю, надо немного о технических деталях рассказать. Суть такова. Приложение писано на Ruby on Rails. Оно состоит из двух частей &ndash; собственно рельсоприложения и sidekiq. Рельсу можно пускать только когда хочется посмотреть на графички, а sidekiq &ndash; например, по крону раз в сутки. Можно, конечно, и чтобы оно постоянно работало. Зависимостей у этого добра, очевидно, вагон: помимо ruby с кучей гемов нужен redis (для sidekiq) и любая СУБД, поддержваемая рельсами (sqlite для одного человека, думаю, хватит за глаза). То, что это всё проще запускать на каком-нибудь линуксе &ndash; пожалуй, очевидно, но если есть желающие повозиться с виндами &ndash; you&rsquo;re welcome. А, ну да, надо ещё будет API-ключ у фликра получить &ndash; это не трудно. Приложение не накладывает никаких ограничений на количество пользователей (а здравый смысл и производительность сервера, сети и flickr api &ndash; да), поэтому им можно будет невозбранно делиться с друзьями.</p>
+
+<p>Исходный код приложения в обозримом будущем будет опубликован где-нибудь на GH или BB (пока я сделать это не готов из-за кучи букв внутри, которые не стоит показывать всем подряд; вот почищу &ndash; и всё будет).</p>
+
+<p>И да, если есть желание помочь с идеями / тестированием / кодом / дизайном / чем-то ещё &ndash; пешыте.</p>
 </div>
 
 
@@ -130,12 +139,12 @@
   
 
 
-<time datetime="2013-04-18T17:33:00+04:00" pubdate data-updated="true">Apr 18<span>th</span>, 2013</time>
+<time datetime="2014-03-15T10:34:00+04:00" pubdate data-updated="true">Mar 15<span>th</span>, 2014</time>
       
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/yadg/'>YADG</a>, <a class='category' href='/blog/categories/diemotivatory/'>Демотиваторы</a>, <a class='category' href='/blog/categories/uprls/'>УПРЛС</a>, <a class='category' href='/blog/categories/iumor/'>Юмор</a>
+    <a class='category' href='/blog/categories/flickr/'>Flickr</a>, <a class='category' href='/blog/categories/webdev/'>WebDev</a>
   
 </span>
 
@@ -144,7 +153,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://at8eqeq3.me/blog/2013/04/18/priviet/" data-via="at8eqeq3" data-counturl="http://at8eqeq3.me/blog/2013/04/18/priviet/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://at8eqeq3.me/blog/2014/03/15/flickrstats/" data-via="at8eqeq3" data-counturl="http://at8eqeq3.me/blog/2014/03/15/flickrstats/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -157,10 +166,8 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/blog/2013/04/16/zapusk-yadg/" title="Previous Post: Запуск YADG">&laquo; Запуск YADG</a>
+        <a class="basic-alignment left" href="/blog/2014/03/15/navozhu-poriadok/" title="Previous Post: Навожу порядок">&laquo; Навожу порядок</a>
       
-      
-        <a class="basic-alignment right" href="/blog/2013/04/19/iesli-prilozhieniia-v-androidie-nie-vidiat-wifi-dot-dot-dot/" title="Next Post: Если приложения в андроиде не видят wifi...">Если приложения в андроиде не видят wifi... &raquo;</a>
       
     </p>
   </footer>
@@ -261,8 +268,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://at8eqeq3.me/blog/2013/04/18/priviet/';
-        var disqus_url = 'http://at8eqeq3.me/blog/2013/04/18/priviet/';
+        var disqus_identifier = 'http://at8eqeq3.me/blog/2014/03/15/flickrstats/';
+        var disqus_url = 'http://at8eqeq3.me/blog/2014/03/15/flickrstats/';
         var disqus_script = 'embed.js';
       
     (function () {

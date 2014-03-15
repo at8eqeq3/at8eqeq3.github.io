@@ -9,7 +9,7 @@
   <meta name="author" content="at8eqeq3">
 
   
-  <meta name="description" content="Ходил давеча на почту. Книжку мне прислали, вот такую, но суть не в этом. Извещение в ящике ажно вторичное, хотя по коду проверил &mdash; только &hellip;">
+  <meta name="description" content="Я тут на досуге пописываю фиговину для сбора статистики просмотров фоточек на Flickr. Ничего необыкновенного, просто раз в сутки дёргает API и &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -38,7 +38,8 @@
 
     (function() {
       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      //ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
   </script>
@@ -79,6 +80,128 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/03/15/flickrstats/">FlickrStats</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-15T10:34:00+04:00" pubdate data-updated="true">Mar 15<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Я тут на досуге пописываю фиговину для сбора статистики просмотров фоточек на <a href="http://flickr.com">Flickr</a>. Ничего необыкновенного, просто раз в сутки дёргает API  и складывает результат в базу, а веб-мордочка строит няшные графики.</p>
+
+<p><img src='http://farm4.staticflickr.com/3775/13161702744_ecc2ff4570_b.jpg' alt='flickrstats-screenshot' /></p>
+
+<p>Пока это выглядит вот так. Наружу это нигде не торчит, так что пока только картинкой. Собственно, по поводу этой фигни у меня есть пара вопросов. Во-первых, надо ли это кому вообще кроме меня? Во-вторых, если на первый вопрос ответ был утвердительным, то как оно лучше &ndash; когда у меня хостится один общий сервис или когда каждый у себя держит по инстансу?</p>
+
+<p>Со вторым вариантом, думаю, надо немного о технических деталях рассказать. Суть такова. Приложение писано на Ruby on Rails. Оно состоит из двух частей &ndash; собственно рельсоприложения и sidekiq. Рельсу можно пускать только когда хочется посмотреть на графички, а sidekiq &ndash; например, по крону раз в сутки. Можно, конечно, и чтобы оно постоянно работало. Зависимостей у этого добра, очевидно, вагон: помимо ruby с кучей гемов нужен redis (для sidekiq) и любая СУБД, поддержваемая рельсами (sqlite для одного человека, думаю, хватит за глаза). То, что это всё проще запускать на каком-нибудь линуксе &ndash; пожалуй, очевидно, но если есть желающие повозиться с виндами &ndash; you&rsquo;re welcome. А, ну да, надо ещё будет API-ключ у фликра получить &ndash; это не трудно. Приложение не накладывает никаких ограничений на количество пользователей (а здравый смысл и производительность сервера, сети и flickr api &ndash; да), поэтому им можно будет невозбранно делиться с друзьями.</p>
+
+<p>Исходный код приложения в обозримом будущем будет опубликован где-нибудь на GH или BB (пока я сделать это не готов из-за кучи букв внутри, которые не стоит показывать всем подряд; вот почищу &ndash; и всё будет).</p>
+
+<p>И да, если есть желание помочь с идеями / тестированием / кодом / дизайном / чем-то ещё &ndash; пешыте.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/03/15/navozhu-poriadok/">Навожу порядок</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-15T10:20:00+04:00" pubdate data-updated="true">Mar 15<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>В один прекрасный день я решил убрать из интернетов все свои говносайтики. Полагаю, никто об этом не будет сожалеть. Бложик, однако же, оставлю &ndash; пусть будет. Надо его, пожалуй, даже в порядок привести.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/03/15/nicht-mehr/">Nicht Mehr</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-03-15T10:09:00+04:00" pubdate data-updated="true">Mar 15<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>С прискорбием должен сообщить, что мой музыкальный проект под названием Katze von Ulthar накрылся чем-то мохнатым. В связи с возникшими техническими трудностями, я лишился исходников как уже опубликованных материалов, так и тех, что были ещё в работе. Это событие заставило меня более трезво оценить всю проделанную работу, и&hellip; В общем, я осознал, что музычка была говённой. То, что было в начале &ndash; ещё куда ни шло, но последнее &ndash; просто стыдоба.</p>
+
+<p>Дабы не отсвечивало, я удалил свой креатифф отовсюду, куда смог дотянуться (а куда не смог &ndash; ну и ладно, всё равно никому не нужно). Из-за этого слегка поломались некоторые посты в бложике, но я скоро это исправлю.</p>
+
+<p>Тем не менее, музыку я не заброшу, поскольку люблю это дело, но пока я не готов что-то делать для публики. Как-то так.</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -282,8 +405,7 @@
   </header>
 
 
-  <div class="entry-content"><iframe width="100%" height="166" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F96560004&amp;"></iframe>
-
+  <div class="entry-content"><p><em>здесь была опубликована моя музыка, но её больше нет</em></p>
 
 <p>Моя работа для конкурса ремиксов на песенку &ldquo;Change the World&rdquo; за авторством Controlled Collapse. Пока что &mdash; work in progress, комменты приветствуются.</p>
 
@@ -373,115 +495,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/05/09/twitter-cards-dlia-yadg/">Twitter Cards для YADG</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-05-09T12:50:00+04:00" pubdate data-updated="true">May 9<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Непостижимым образом, Twitter одобрил <a href="https://dev.twitter.com/docs/cards">карточки</a> для приложения. Теперь постеры красиво отображаются в ленте. Стоит, конечно, заметить, что Твиттер, как всегда, идёт своим путём, и дублирует функционал <abbr title="OpenGraph">OG</abbr> своими тегами. С другой стороны, глядя на то, как отображают посты <abbr title="ВКонтакте">VK</abbr> и <abbr title="Facebook">FB</abbr> (поддерживающие и активно насаждающие <abbr title="OpenGraph">OG</abbr>) &mdash; лучше пусть Twitter Cards.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/05/09/eto-tupik-vsie-usiliia-byli-naprasny/">Это тупик. Все усилия были напрасны</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-05-09T07:21:00+04:00" pubdate data-updated="true">May 9<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><img src="http://dem.dxfoto.ru/uploads/2/g/2g2z0ncsef81mb0ipz6.jpg"></p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/04/20/nochmals/">Nochmals</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-04-20T12:00:00+04:00" pubdate data-updated="true">Apr 20<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><iframe width="100%" height="166" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F88755765&amp;"></iframe>
-
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -494,11 +507,23 @@
   
     <section>
   <h1>Category Cloud</h1>
-    <span id="tag-cloud"><a href='/blog/categories/android' style='font-size: 112.0%'>Android&nbsp;(1)</a> <a href='/blog/categories/dev' style='font-size: 112.0%'>Dev&nbsp;(1)</a> <a href='/blog/categories/ipv6' style='font-size: 112.0%'>IPv6&nbsp;(1)</a> <a href='/blog/categories/irl' style='font-size: 112.0%'>IRL&nbsp;(1)</a> <a href='/blog/categories/katze-von-ulthar' style='font-size: 136.0%'>Katze von Ulthar&nbsp;(3)</a> <a href='/blog/categories/kb' style='font-size: 112.0%'>KB&nbsp;(1)</a> <a href='/blog/categories/music' style='font-size: 136.0%'>Music&nbsp;(3)</a> <a href='/blog/categories/oembed' style='font-size: 112.0%'>OEmbed&nbsp;(1)</a> <a href='/blog/categories/photo' style='font-size: 112.0%'>Photo&nbsp;(1)</a> <a href='/blog/categories/remixes' style='font-size: 112.0%'>Remixes&nbsp;(1)</a> <a href='/blog/categories/renoise' style='font-size: 124.0%'>Renoise&nbsp;(2)</a> <a href='/blog/categories/suxx' style='font-size: 112.0%'>Suxx&nbsp;(1)</a> <a href='/blog/categories/this' style='font-size: 136.0%'>This&nbsp;(3)</a> <a href='/blog/categories/twitter' style='font-size: 124.0%'>Twitter&nbsp;(2)</a> <a href='/blog/categories/vier' style='font-size: 124.0%'>Vier&nbsp;(2)</a> <a href='/blog/categories/webdev' style='font-size: 160.0%'>Webdev&nbsp;(5)</a> <a href='/blog/categories/yadg' style='font-size: 148.0%'>YADG&nbsp;(4)</a> <a href='/blog/categories/Безысходность' style='font-size: 136.0%'>Безысходность&nbsp;(3)</a> <a href='/blog/categories/Демотиваторы' style='font-size: 124.0%'>Демотиваторы&nbsp;(2)</a> <a href='/blog/categories/УПРЛС' style='font-size: 112.0%'>УПРЛС&nbsp;(1)</a> <a href='/blog/categories/Юмор' style='font-size: 124.0%'>Юмор&nbsp;(2)</a> </span>
+    <span id="tag-cloud"><a href='/blog/categories/android' style='font-size: 110.0%'>Android&nbsp;(1)</a> <a href='/blog/categories/dev' style='font-size: 110.0%'>Dev&nbsp;(1)</a> <a href='/blog/categories/eol' style='font-size: 120.0%'>EOL&nbsp;(2)</a> <a href='/blog/categories/flickr' style='font-size: 110.0%'>Flickr&nbsp;(1)</a> <a href='/blog/categories/ipv6' style='font-size: 110.0%'>IPv6&nbsp;(1)</a> <a href='/blog/categories/irl' style='font-size: 110.0%'>IRL&nbsp;(1)</a> <a href='/blog/categories/katze-von-ulthar' style='font-size: 140.0%'>Katze von Ulthar&nbsp;(4)</a> <a href='/blog/categories/kb' style='font-size: 110.0%'>KB&nbsp;(1)</a> <a href='/blog/categories/music' style='font-size: 140.0%'>Music&nbsp;(4)</a> <a href='/blog/categories/oembed' style='font-size: 110.0%'>OEmbed&nbsp;(1)</a> <a href='/blog/categories/photo' style='font-size: 110.0%'>Photo&nbsp;(1)</a> <a href='/blog/categories/remixes' style='font-size: 110.0%'>Remixes&nbsp;(1)</a> <a href='/blog/categories/renoise' style='font-size: 120.0%'>Renoise&nbsp;(2)</a> <a href='/blog/categories/suxx' style='font-size: 110.0%'>Suxx&nbsp;(1)</a> <a href='/blog/categories/this' style='font-size: 130.0%'>This&nbsp;(3)</a> <a href='/blog/categories/twitter' style='font-size: 120.0%'>Twitter&nbsp;(2)</a> <a href='/blog/categories/vier' style='font-size: 120.0%'>Vier&nbsp;(2)</a> <a href='/blog/categories/webdev' style='font-size: 110.0%'>WebDev&nbsp;(1)</a> <a href='/blog/categories/webdev' style='font-size: 160.0%'>Webdev&nbsp;(6)</a> <a href='/blog/categories/yadg' style='font-size: 140.0%'>YADG&nbsp;(4)</a> <a href='/blog/categories/Безысходность' style='font-size: 130.0%'>Безысходность&nbsp;(3)</a> <a href='/blog/categories/Демотиваторы' style='font-size: 120.0%'>Демотиваторы&nbsp;(2)</a> <a href='/blog/categories/УПРЛС' style='font-size: 110.0%'>УПРЛС&nbsp;(1)</a> <a href='/blog/categories/Юмор' style='font-size: 120.0%'>Юмор&nbsp;(2)</a> </span>
 </section>
 <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/03/15/flickrstats/">FlickrStats</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/03/15/navozhu-poriadok/">Навожу порядок</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/03/15/nicht-mehr/">Nicht Mehr</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2013/11/16/pro-pochtu/">Про почту</a>
@@ -506,18 +531,6 @@
     
       <li class="post">
         <a href="/blog/2013/08/18/pro-twitter-i-rate-limit/">Про Twitter и Rate Limit</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/07/28/instagram-color-indexer/">Instagram Color Indexer</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/07/13/novyie-fotochki-i-provierka-oembed/">Новые фоточки и проверка OEmbed</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2013/06/12/change-the-world/">Change the World</a>
       </li>
     
   </ul>
@@ -564,7 +577,7 @@
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2013 - at8eqeq3 -
+  Copyright &copy; 2014 - at8eqeq3 -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
 </p>
 

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Flickr | AT8EQEQ3.ME]]></title>
   <link href="http://at8eqeq3.me/blog/categories/flickr/atom.xml" rel="self"/>
   <link href="http://at8eqeq3.me/"/>
-  <updated>2014-03-15T11:05:53+04:00</updated>
+  <updated>2014-03-15T11:17:31+04:00</updated>
   <id>http://at8eqeq3.me/</id>
   <author>
     <name><![CDATA[at8eqeq3]]></name>
@@ -20,7 +20,7 @@
     <id>http://at8eqeq3.me/blog/2014/03/15/flickrstats</id>
     <content type="html"><![CDATA[<p>Я тут на досуге пописываю фиговину для сбора статистики просмотров фоточек на <a href="http://flickr.com">Flickr</a>. Ничего необыкновенного, просто раз в сутки дёргает API  и складывает результат в базу, а веб-мордочка строит няшные графики.</p>
 
-<p>{% oembed <a href="http://www.flickr.com/photos/at8eqeq3/13161702744/">http://www.flickr.com/photos/at8eqeq3/13161702744/</a> }</p>
+<p><img src='http://farm4.staticflickr.com/3775/13161702744_ecc2ff4570_b.jpg' alt='flickrstats-screenshot' /></p>
 
 <p>Пока это выглядит вот так. Наружу это нигде не торчит, так что пока только картинкой. Собственно, по поводу этой фигни у меня есть пара вопросов. Во-первых, надо ли это кому вообще кроме меня? Во-вторых, если на первый вопрос ответ был утвердительным, то как оно лучше &ndash; когда у меня хостится один общий сервис или когда каждый у себя держит по инстансу?</p>
 

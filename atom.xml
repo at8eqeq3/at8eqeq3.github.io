@@ -4,7 +4,7 @@
   <title><![CDATA[AT8EQEQ3.ME]]></title>
   <link href="http://at8eqeq3.me/atom.xml" rel="self"/>
   <link href="http://at8eqeq3.me/"/>
-  <updated>2013-11-16T20:11:57+04:00</updated>
+  <updated>2014-03-15T11:17:31+04:00</updated>
   <id>http://at8eqeq3.me/</id>
   <author>
     <name><![CDATA[at8eqeq3]]></name>
@@ -12,6 +12,47 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[FlickrStats]]></title>
+    <link href="http://at8eqeq3.me/blog/2014/03/15/flickrstats/"/>
+    <updated>2014-03-15T10:34:00+04:00</updated>
+    <id>http://at8eqeq3.me/blog/2014/03/15/flickrstats</id>
+    <content type="html"><![CDATA[<p>Я тут на досуге пописываю фиговину для сбора статистики просмотров фоточек на <a href="http://flickr.com">Flickr</a>. Ничего необыкновенного, просто раз в сутки дёргает API  и складывает результат в базу, а веб-мордочка строит няшные графики.</p>
+
+<p><img src='http://farm4.staticflickr.com/3775/13161702744_ecc2ff4570_b.jpg' alt='flickrstats-screenshot' /></p>
+
+<p>Пока это выглядит вот так. Наружу это нигде не торчит, так что пока только картинкой. Собственно, по поводу этой фигни у меня есть пара вопросов. Во-первых, надо ли это кому вообще кроме меня? Во-вторых, если на первый вопрос ответ был утвердительным, то как оно лучше &ndash; когда у меня хостится один общий сервис или когда каждый у себя держит по инстансу?</p>
+
+<p>Со вторым вариантом, думаю, надо немного о технических деталях рассказать. Суть такова. Приложение писано на Ruby on Rails. Оно состоит из двух частей &ndash; собственно рельсоприложения и sidekiq. Рельсу можно пускать только когда хочется посмотреть на графички, а sidekiq &ndash; например, по крону раз в сутки. Можно, конечно, и чтобы оно постоянно работало. Зависимостей у этого добра, очевидно, вагон: помимо ruby с кучей гемов нужен redis (для sidekiq) и любая СУБД, поддержваемая рельсами (sqlite для одного человека, думаю, хватит за глаза). То, что это всё проще запускать на каком-нибудь линуксе &ndash; пожалуй, очевидно, но если есть желающие повозиться с виндами &ndash; you&rsquo;re welcome. А, ну да, надо ещё будет API-ключ у фликра получить &ndash; это не трудно. Приложение не накладывает никаких ограничений на количество пользователей (а здравый смысл и производительность сервера, сети и flickr api &ndash; да), поэтому им можно будет невозбранно делиться с друзьями.</p>
+
+<p>Исходный код приложения в обозримом будущем будет опубликован где-нибудь на GH или BB (пока я сделать это не готов из-за кучи букв внутри, которые не стоит показывать всем подряд; вот почищу &ndash; и всё будет).</p>
+
+<p>И да, если есть желание помочь с идеями / тестированием / кодом / дизайном / чем-то ещё &ndash; пешыте.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Навожу порядок]]></title>
+    <link href="http://at8eqeq3.me/blog/2014/03/15/navozhu-poriadok/"/>
+    <updated>2014-03-15T10:20:00+04:00</updated>
+    <id>http://at8eqeq3.me/blog/2014/03/15/navozhu-poriadok</id>
+    <content type="html"><![CDATA[<p>В один прекрасный день я решил убрать из интернетов все свои говносайтики. Полагаю, никто об этом не будет сожалеть. Бложик, однако же, оставлю &ndash; пусть будет. Надо его, пожалуй, даже в порядок привести.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Nicht mehr]]></title>
+    <link href="http://at8eqeq3.me/blog/2014/03/15/nicht-mehr/"/>
+    <updated>2014-03-15T10:09:00+04:00</updated>
+    <id>http://at8eqeq3.me/blog/2014/03/15/nicht-mehr</id>
+    <content type="html"><![CDATA[<p>С прискорбием должен сообщить, что мой музыкальный проект под названием Katze von Ulthar накрылся чем-то мохнатым. В связи с возникшими техническими трудностями, я лишился исходников как уже опубликованных материалов, так и тех, что были ещё в работе. Это событие заставило меня более трезво оценить всю проделанную работу, и&hellip; В общем, я осознал, что музычка была говённой. То, что было в начале &ndash; ещё куда ни шло, но последнее &ndash; просто стыдоба.</p>
+
+<p>Дабы не отсвечивало, я удалил свой креатифф отовсюду, куда смог дотянуться (а куда не смог &ndash; ну и ладно, всё равно никому не нужно). Из-за этого слегка поломались некоторые посты в бложике, но я скоро это исправлю.</p>
+
+<p>Тем не менее, музыку я не заброшу, поскольку люблю это дело, но пока я не готов что-то делать для публики. Как-то так.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Про почту]]></title>
@@ -84,8 +125,7 @@
     <link href="http://at8eqeq3.me/blog/2013/06/12/change-the-world/"/>
     <updated>2013-06-12T17:24:00+04:00</updated>
     <id>http://at8eqeq3.me/blog/2013/06/12/change-the-world</id>
-    <content type="html"><![CDATA[<iframe width="100%" height="166" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F96560004&amp;"></iframe>
-
+    <content type="html"><![CDATA[<p><em>здесь была опубликована моя музыка, но её больше нет</em></p>
 
 <p>Моя работа для конкурса ремиксов на песенку &ldquo;Change the World&rdquo; за авторством Controlled Collapse. Пока что &mdash; work in progress, комменты приветствуются.</p>
 
@@ -131,7 +171,7 @@
     <link href="http://at8eqeq3.me/blog/2013/05/09/eto-tupik-vsie-usiliia-byli-naprasny/"/>
     <updated>2013-05-09T07:21:00+04:00</updated>
     <id>http://at8eqeq3.me/blog/2013/05/09/eto-tupik-vsie-usiliia-byli-naprasny</id>
-    <content type="html"><![CDATA[<p><img src="http://dem.dxfoto.ru/uploads/2/g/2g2z0ncsef81mb0ipz6.jpg"></p>
+    <content type="html"><![CDATA[<p><em>Здесь была картинка, но я выключил сайт, где она лежала, а бэкап пролюбил. Пичалька.</em></p>
 ]]></content>
   </entry>
   
@@ -140,8 +180,7 @@
     <link href="http://at8eqeq3.me/blog/2013/04/20/nochmals/"/>
     <updated>2013-04-20T12:00:00+04:00</updated>
     <id>http://at8eqeq3.me/blog/2013/04/20/nochmals</id>
-    <content type="html"><![CDATA[<iframe width="100%" height="166" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F88755765&amp;"></iframe>
-
+    <content type="html"><![CDATA[<p><em>здесь была опубликована моя музыка, но её больше нет</em></p>
 ]]></content>
   </entry>
   
@@ -165,7 +204,7 @@
     <link href="http://at8eqeq3.me/blog/2013/04/18/priviet/"/>
     <updated>2013-04-18T17:33:00+04:00</updated>
     <id>http://at8eqeq3.me/blog/2013/04/18/priviet</id>
-    <content type="html"><![CDATA[<p> <img src="http://dem.dxfoto.ru/uploads/2/f/2fyuomtraqd80mebdoi.jpg"></p>
+    <content type="html"><![CDATA[<p><em>Здесь была картинка, но я выключил сайт, где она лежала, а бэкап пролюбил. Пичалька.</em></p>
 ]]></content>
   </entry>
   
@@ -187,8 +226,7 @@
     <link href="http://at8eqeq3.me/blog/2013/03/13/istra/"/>
     <updated>2013-03-13T12:00:00+04:00</updated>
     <id>http://at8eqeq3.me/blog/2013/03/13/istra</id>
-    <content type="html"><![CDATA[<iframe width="100%" height="166" scrolling="no" frameborder="no" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F81651482&amp;"></iframe>
-
+    <content type="html"><![CDATA[<p><em>здесь была опубликована моя музыка, но её больше нет</em></p>
 ]]></content>
   </entry>
   
