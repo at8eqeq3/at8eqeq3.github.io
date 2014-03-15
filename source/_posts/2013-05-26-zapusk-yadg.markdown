@@ -11,6 +11,10 @@ categories: [YADG, Webdev]
 
 Сайт находится здесь: [dem.dxfoto.ru][site]. Исходники на GitHub, невозбранно: [github.com/at8eqeq3/dem.dxfoto.ru][source].
 
+***
+
+UPD @ 2014-03-15 Сайт больше не функционирует. Извиняйте.
+
 [heroku]:      https://www.heroku.com/
 [sinatra]:     http://www.sinatrarb.com/
 [imagemagick]: http://www.imagemagick.org/

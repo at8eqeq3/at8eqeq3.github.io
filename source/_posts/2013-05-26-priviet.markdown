@@ -5,4 +5,4 @@ date: 2013-04-18 17:33
 comments: true
 categories: [YADG, Демотиваторы, Юмор, УПРЛС]
 ---
- {% img http://dem.dxfoto.ru/uploads/2/f/2fyuomtraqd80mebdoi.jpg %}
+_Здесь была картинка, но я выключил сайт, где она лежала, а бэкап пролюбил. Пичалька._

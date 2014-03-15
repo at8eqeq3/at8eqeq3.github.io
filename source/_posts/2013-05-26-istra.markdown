@@ -6,4 +6,4 @@ comments: true
 categories: [Music, Katze von Ulthar, Vier, Renoise]
 ---
 
-{% soundcloud https://soundcloud.com/katze-von-ulthar/istra %}
+_здесь была опубликована моя музыка, но её больше нет_

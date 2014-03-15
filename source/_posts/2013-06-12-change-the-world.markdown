@@ -6,7 +6,7 @@ comments: true
 categories: [Katze von Ulthar, Music, Remixes]
 ---
 
-{% soundcloud https://soundcloud.com/katze-von-ulthar/change-the-world %}
+_здесь была опубликована моя музыка, но её больше нет_
 
 Моя работа для конкурса ремиксов на песенку "Change the World" за авторством Controlled Collapse. Пока что -- work in progress, комменты приветствуются.
 
